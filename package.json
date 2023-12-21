@@ -1,0 +1,21 @@
+{
+  "name": "poo-concepts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ver1": "npx nodemon src/ver1/index.ts --watch 'src/' -e ts",
+    "ver2": "npx nodemon src/ver2/index.ts --watch 'src/' -e ts",
+    "ver3": "npx nodemon src/ver3/index.ts --watch 'src/' -e ts",
+    "jogo": "npx nodemon src/jogo/index.ts --watch 'src/' -e ts",
+    "web": "npx nodemon src/web/index.ts --watch 'src/' -e ts",
+    "compile": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
